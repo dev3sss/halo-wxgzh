@@ -1,0 +1,20 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: setting-wxgzh-mate
+spec:
+  forms:
+    - group: wxgzh
+      label: 微信公众号发布设置
+      formSchema:
+        - $formkit: text
+          name: appid
+          label: "appid"
+          value: ''
+        - $formkit: text
+          name: secret
+          label: "secret"
+        - $formkit: select
+          name: fbcz
+          label: "[发布到微信公众号]的操作"
+          options: {'1': '保存到草稿','2': '直接发布'}

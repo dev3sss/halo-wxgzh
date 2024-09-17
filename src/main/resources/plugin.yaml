@@ -4,19 +4,21 @@ apiVersion: plugin.halo.run/v1alpha1
 kind: Plugin
 metadata:
   # The name defines how the plugin is invoked, A unique name
-  name: starter
+  name: wxgzh-mate
 spec:
   enabled: true
   requires: ">=2.11.0"
   author:
-    name: Halo
-    website: https://github.com/halo-dev
+    name: dev3sss
+    website: https://github.com/dev3sss
   logo: logo.png
   homepage: https://github.com/halo-dev/plugin-starter#readme
   repo: https://github.com/halo-dev/plugin-starter
   issues: https://github.com/halo-dev/plugin-starter/issues
-  displayName: "插件快速开始模板"
+  displayName: "微信公众号助手"
   description: "这是一个插件快速开始模板"
+  configMapName: setting-wxgzh-mate-configmap
+  settingName: setting-wxgzh-mate
   license:
     - name: "GPL-3.0"
       url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
